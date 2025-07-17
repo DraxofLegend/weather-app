@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+.weather {
+  place-self: center;
+  padding: 50px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.search-bar{
+  display:flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.search-bar input{
+  height: 50px;
+  border: none;
+  outline:none;
+  border-radius:40px;
+  padding-left:25px;
+  color: #626262;
+  background: #ebfffc;
+  font-size: 15px;
+
+}
+
+.search-bar img{
+  width: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  background: #ebfffc;
+  cursor: pointer;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.temperature{
+  font-family: "TikTok Sans", sans-serif;
+  color: #fff;
+  font-size: 80px;
+  line-height: 1;
+  text-align: center;
+
+}
+
+.location{
+  font-family: "TikTok Sans", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.loading{
+  font-family: "TikTok Sans", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.error-msg{
+  font-family: "TikTok Sans", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.weather-data {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.col {
+  display: flex;
+  align-items: center;   
+  gap: 15px;
+}
+
+.col img {
+  width: 40px;
+  height: 40px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-group p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-group span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.icon-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.icon{
+  width: 80%;
+  height: 80%;
+}

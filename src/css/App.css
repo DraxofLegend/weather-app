@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.app-title{
+    min-height:100vh;
+    display: grid;
+    position:relative;
+    overflow: hidden;
+}
+
+.app-title::before{
+    content: "";
+    inset: 0;
+    background-image: url('../assets/nzview.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    filter:blur(1px);
+    position:absolute;
+    z-index: -1;
+}
